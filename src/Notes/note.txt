@@ -1,0 +1,2 @@
+WQSC Detail download URL from frontend
+Example - http://localhost:5173/farmer-bank/download-wqsc-detail?key=63

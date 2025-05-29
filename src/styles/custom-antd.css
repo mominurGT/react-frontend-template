@@ -1,0 +1,86 @@
+:root {
+    --ant-font-family: 'Inter', 'Kalpurush';
+  }
+  
+  /* Override Ant Design font family for various components */
+  :where(.css-dev-only-do-not-override-qnu6hi),
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-card,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-typography,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-button,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-btn,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-modal,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-menu,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-dropdown,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-list,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-table,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-tabs,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-input,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-select,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-checkbox,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-radio,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-breadcrumb,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-pagination,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-slider,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-tooltip,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-popover,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-collapse>.ant-collapse-item >.ant-collapse-header,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-col,:where(.css-dev-only-do-not-override-qnu6hi).ant-layout,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-table-wrapper .ant-table,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-collapse,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-checkbox-wrapper,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-select-dropdown, 
+  /* for live deployments */
+  :where(.css-qnu6hi),
+  :where(.css-qnu6hi).ant-card,
+  :where(.css-qnu6hi).ant-typography,
+  :where(.css-qnu6hi).ant-button,
+  :where(.css-qnu6hi).ant-btn,
+  :where(.css-qnu6hi).ant-modal,
+  :where(.css-qnu6hi).ant-menu,
+  :where(.css-qnu6hi).ant-dropdown,
+  :where(.css-qnu6hi).ant-list,
+  :where(.css-qnu6hi).ant-table,
+  :where(.css-qnu6hi).ant-tabs,
+  :where(.css-qnu6hi).ant-input,
+  :where(.css-qnu6hi).ant-select,
+  :where(.css-qnu6hi).ant-checkbox,
+  :where(.css-qnu6hi).ant-radio,
+  :where(.css-qnu6hi).ant-breadcrumb,
+  :where(.css-qnu6hi).ant-pagination,
+  :where(.css-qnu6hi).ant-slider,
+  :where(.css-qnu6hi).ant-tooltip,
+  :where(.css-qnu6hi).ant-popover,
+  :where(.css-qnu6hi).ant-collapse>.ant-collapse-item >.ant-collapse-header,
+  :where(.css-qnu6hi).ant-col,:where(.css-qnu6hi).ant-layout,
+  :where(.css-qnu6hi).ant-table-wrapper .ant-table,
+  :where(.css-qnu6hi).ant-collapse,
+  :where(.css-qnu6hi).ant-checkbox-wrapper,
+  :where(.css-qnu6hi).ant-select-dropdown,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-light .ant-menu-item,
+  :where(.css-qnu6hi).ant-menu-light .ant-menu-item,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-light .ant-menu-submenu-title,
+  :where(.css-qnu6hi).ant-menu-light .ant-menu-submenu-title
+  {
+      font-family: var(--ant-font-family);
+  }
+
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-collapse>.ant-collapse-item >.ant-collapse-header,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-light .ant-menu-item a,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-light .ant-menu-item a:hover,
+  :where(.css-qnu6hi).ant-collapse>.ant-collapse-item >.ant-collapse-header,
+  :where(.css-qnu6hi).ant-menu-light .ant-menu-item a,
+  :where(.css-qnu6hi).ant-menu-light .ant-menu-item a:hover,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-light .ant-menu-item,
+  :where(.css-qnu6hi).ant-menu-light .ant-menu-item,
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-light .ant-menu-submenu-title,
+  :where(.css-qnu6hi).ant-menu-light .ant-menu-submenu-title
+  {
+    color: #475467;
+    text-decoration: none;
+  }
+  :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-light>.ant-menu .ant-menu-item a,
+  :where(.css-qnu6hi).ant-menu-light>.ant-menu .ant-menu-item a,
+  .collapsible-sections .ant-collapse-content-box p a
+  {
+    color: #595959;
+  }

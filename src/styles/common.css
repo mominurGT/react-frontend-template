@@ -1,0 +1,73 @@
+.custom-table-header .ant-table-thead>tr>th {
+    font-family: 'Kalpurush';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #475467
+}
+
+.custom-pagination .ant-pagination-item-active a {
+    color: #1890FF !important;
+}
+
+.custom-pagination .ant-pagination-item-active {
+    border-color: #D9D9D9 !important;
+    background-color: #FFFFFF;
+}
+
+.main-div-custom {
+    background-color: #F1F7F1;
+    padding: 2px;
+}
+
+.top-header-custom {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.breadcrumb-custom {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #00000073;
+    margin-top: -6px;
+}
+
+.table-title-custom {
+    font-size: 24px;
+    line-height: 32px;
+    color: #475467;
+    font-weight: 400;
+}
+
+.row-style-custom {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid #EAECF0;
+    color: #000000D9;
+}
+
+.row-style-custom-excel {
+    font-size: 14px;
+    font-weight: normal;
+    border-bottom: 1px solid #EAECF0;
+    color: #000000D9;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-table-wrapper .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before,
+:where(.css-dev-only-do-not-override-qnu6hi).ant-table-wrapper .ant-table-thead>tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    height: 0px;
+}
+
+:where(.css-qnu6hi).ant-table-wrapper .ant-table-thead >tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before,
+:where(.css-qnu6hi).ant-table-wrapper .ant-table-thead >tr>td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+    height: 0px;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr:last-child > td,
+.ant-table-wrapper .ant-table-tbody > tr:last-child > th {
+    border-bottom: 0 !important;
+}
